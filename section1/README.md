@@ -99,6 +99,47 @@ Note that in the command provided above, the dashes preceding the directory name
 
 * `rm -rf`: Adding the `-r` and `-f` flags to the `rm` command will allow you to delete directories even if they have other files and/or directories inside of them. For more information on each of these flags enter `man rm` into your terminal. It will print out the manual for this command.
 
+My code:
+```bash
+michael_seyedian ~/turing/mod1_prework/section1  $ mkdir secretLibraryProject
+michael_seyedian ~/turing/mod1_prework/section1  $ cd secretLibraryProject 
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ touch README.md package.json
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ mkdir lib
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ mkdir test
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ ls
+README.md	lib		package.json	test
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ cd lib
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/lib  $ touch secretLibrary.js secretBook.js secretLibrarian.js patron.js librarySystem.js
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/lib  $ ls
+librarySystem.js	secretBook.js		secretLibrary.js
+patron.js		secretLibrarian.js
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/lib  $ cd ..
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ cd test 
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/test  $ touch secretLibrary.js secretBook.js secretLibrarian.js patron.js librarySystem.js
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/test  $ ls
+librarySystem.js	secretBook.js		secretLibrary.js
+patron.js		secretLibrarian.js
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/test  $ rm secretLibrary.js secretBook.js secretLibrarian.js patron.js librarySystem.js
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/test  $ ls
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/test  $ cd ..
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ rm -rf test 
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ ls
+README.md	lib		package.json
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ cd lib 
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/lib  $ rm secretLibrary.js secretBook.js secretLibrarian.js patron.js librarySystem.js
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/lib  $ ls
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/lib  $ cd ..      
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ rm -rf lib 
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ ls
+README.md	package.json
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ rm package.json 
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ rm README.md                     
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ ls
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ cd ..
+michael_seyedian ~/turing/mod1_prework/section1  $ rm -rf secretLibraryProject 
+michael_seyedian ~/turing/mod1_prework/section1  $ ls
+```
+
 #### Terminal Practice
 
 👩‍💻 Use `rm` and `rm -rf` to delete each of the files and directories you created in the `Making Things` section above.
