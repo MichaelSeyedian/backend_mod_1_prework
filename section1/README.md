@@ -99,6 +99,12 @@ Note that in the command provided above, the dashes preceding the directory name
 
 * `rm -rf`: Adding the `-r` and `-f` flags to the `rm` command will allow you to delete directories even if they have other files and/or directories inside of them. For more information on each of these flags enter `man rm` into your terminal. It will print out the manual for this command.
 
+#### Terminal Practice
+
+👩‍💻 Use `rm` and `rm -rf` to delete each of the files and directories you created in the `Making Things` section above.
+
+Note that it would be possible to delete the entire directory that you created with just `rm -rf secretLibrary`. **Don't do this!** At this point it's better for you to delete each of the files and directories individually so that you get some practice with these commands, which will help you remember them better in the long run. The goal here (for this particular exercise) isn't to be efficient and creating and deleting files and directories, it's to *get practice* creating and deleting files and directories. Ultimately this practice will allow you to be more efficient in the future.
+
 My code:
 ```bash
 michael_seyedian ~/turing/mod1_prework/section1  $ mkdir secretLibraryProject
@@ -143,12 +149,6 @@ michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ cd ..
 michael_seyedian ~/turing/mod1_prework/section1  $ rm -rf secretLibraryProject 
 michael_seyedian ~/turing/mod1_prework/section1  $ ls
 ```
-
-#### Terminal Practice
-
-👩‍💻 Use `rm` and `rm -rf` to delete each of the files and directories you created in the `Making Things` section above.
-
-Note that it would be possible to delete the entire directory that you created with just `rm -rf secretLibrary`. **Don't do this!** At this point it's better for you to delete each of the files and directories individually so that you get some practice with these commands, which will help you remember them better in the long run. The goal here (for this particular exercise) isn't to be efficient and creating and deleting files and directories, it's to *get practice* creating and deleting files and directories. Ultimately this practice will allow you to be more efficient in the future.
 
 ## Part C Ruby Foundations
 
