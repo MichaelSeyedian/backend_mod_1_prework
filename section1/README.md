@@ -109,24 +109,28 @@ michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ mkdir te
 michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ ls
 README.md	lib		package.json	test
 michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ cd lib
-michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/lib  $ touch secretLibrary.js secretBook.js secretLibrarian.js patron.js librarySystem.js
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/lib  $ touch secretLibrary.js secretBook.js 
+secretLibrarian.js patron.js librarySystem.js
 michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/lib  $ ls
 librarySystem.js	secretBook.js		secretLibrary.js
 patron.js		secretLibrarian.js
 michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/lib  $ cd ..
 michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ cd test 
-michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/test  $ touch secretLibrary.js secretBook.js secretLibrarian.js patron.js librarySystem.js
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/test  $ touch secretLibrary.js secretBook.js 
+secretLibrarian.js patron.js librarySystem.js
 michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/test  $ ls
 librarySystem.js	secretBook.js		secretLibrary.js
 patron.js		secretLibrarian.js
-michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/test  $ rm secretLibrary.js secretBook.js secretLibrarian.js patron.js librarySystem.js
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/test  $ rm secretLibrary.js secretBook.js 
+secretLibrarian.js patron.js librarySystem.js
 michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/test  $ ls
 michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/test  $ cd ..
 michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ rm -rf test 
 michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ ls
 README.md	lib		package.json
 michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ cd lib 
-michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/lib  $ rm secretLibrary.js secretBook.js secretLibrarian.js patron.js librarySystem.js
+michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/lib  $ rm secretLibrary.js secretBook.js 
+secretLibrarian.js patron.js librarySystem.js
 michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/lib  $ ls
 michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject/lib  $ cd ..      
 michael_seyedian ~/turing/mod1_prework/section1/secretLibraryProject  $ rm -rf lib 
