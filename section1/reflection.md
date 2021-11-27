@@ -8,7 +8,7 @@ keeping a growth mindset. I'd like to get better at viewing learning as a proces
 
 1. How would you print the string `"Hello World!"` to the terminal?
 
-`p "Hello World!"``
+`p "Hello World!"`
 
 1. What character is used to indicate comments in a ruby file?
 
@@ -39,4 +39,5 @@ keeping a growth mindset. I'd like to get better at viewing learning as a proces
 1. Name and describe two common string methods:
 
 `.length` - returns the number of character (including spaces) in a string.
+<br />
 `.split` - converts the words in a string to an Array of strings.
