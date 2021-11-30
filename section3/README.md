@@ -28,8 +28,20 @@ Read/watch one or both of the following:
 
 Then, consider on the following questions. We will ask you to share some of these responses at the end of this section.
 - What are two points from the article or video that either resonated with you, or were brand new to you?
+
+  > One point in the article that resonated with me was that it can be easy to feel that time has been wasted when a bug takes a lot of time to troubleshoot & resolve. However, this is part of the learning process. Learning is taking place during that struggle, so it's not a waste of time.
+
+  > Another point that resonated with me, that also relates to the previous point, is to learn when to ask for help. There is value in struggling on your own if you're making progress on the problem. However, once progress ceases, it's time to ask for help.
+
 - In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
+
+  > Currently, I demonstrate a growth mindset by diligently practicing to improve at my pursuits. I'm very good at holding myself accountable, setting goals, & being consistent. I also demonstrate a growth mindset by never giving up after experiencing set-backs.
+
+  > I can better adopt a growth mindset by understanding that learning is an endless journey, not a destination. There's always more to learn. I will also work on being open to feedback & understanding that putting my work out there for feedback will make me a better developer. I'll strive to review feedback objectively & be grateful for suggestions/critiques that will improve my work.
+
 - What is something you are good at or knowledgeable at now, that you once weren't? How did you get those skills/knowledge? Was it hard at some point?
+
+  > I'm good at guitar. I gained this skill by consistently practicing & always seeking to improve. It was extremely hard in the beginning because I wanted to be instantly good at it. I wanted to play like the pros right off the bat, which is obviously not realistic. I still experience challenges when I encounter a piece of music that is beyond my current capabilities. But I've been playing long enough to know that if I keep practicing, I'll get it eventually.
 
 ## Part B Arrays + Hashes
 
@@ -37,14 +49,14 @@ Today you will learn about two common data structures: arrays and hashes.
 
 When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work locally, and then send your work to Github.
 
-1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory. 
-    - [ ] Read about what an [array](https://learnrubythehardway.org/book/ex32.html) is from Learn Ruby the Hard Way.
+1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory.
+    - [x] Read about what an [array](https://learnrubythehardway.org/book/ex32.html) is from Learn Ruby the Hard Way.
 
-    - [ ] Learn how arrays are [index-based](https://learnrubythehardway.org/book/ex34.html) from Learn Ruby the Hard Way.
+    - [x] Learn how arrays are [index-based](https://learnrubythehardway.org/book/ex34.html) from Learn Ruby the Hard Way.
 
-    - [ ] [Hashes](https://learnrubythehardway.org/book/ex39.html) from Learn Ruby the Hard Way.
+    - [x] [Hashes](https://learnrubythehardway.org/book/ex39.html) from Learn Ruby the Hard Way.
 
-    - [ ] [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) from Ruby in 100 minutes.
+    - [x] [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) from Ruby in 100 minutes.
 
 1. Work through the arrays.rb file in the section3/exercises directory.
 
