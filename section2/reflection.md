@@ -54,9 +54,9 @@ end
 
 1. In your own words, what is the purpose of a method?
 
-> The purpose of a method is to save a set of instructions that will be used repeatedly, so they don't have to be retyped each time.
+  > The purpose of a method is to save a set of instructions that will be used repeatedly, so those instructions don't have to be retyped each time.
 
-1. Create a method named `hello` that will print `"Sam I am"`.
+2. Create a method named `hello` that will print `"Sam I am"`.
 
 ```ruby
 def hello
@@ -64,7 +64,7 @@ def hello
 end
 ```
 
-1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
+3. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
 ```ruby
 def hello_someone(name)
@@ -72,12 +72,12 @@ def hello_someone(name)
 end
 ```
 
-1. How would you call or execute the method that you created above?
+4. How would you call or execute the method that you created above?
 
 ```ruby
 hello_someone("Michael")
 ```
 
-1. What questions do you have about methods in Ruby?
+5. What questions do you have about methods in Ruby?
 
 > Do methods have global & local scopes?

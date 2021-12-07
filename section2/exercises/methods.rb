@@ -50,6 +50,6 @@ song_selector("Animal", "Miike Snow")
 # What did you name each parameter, and why?
 
 # EXPLAIN:
-# I named the function song_selector because that was my intention for the purpose of the function--
-  # I imagined it being used to pick a song.
-  # I used 'song' & 'artist' for the parameters because this is the info needed in order to pick the intended song.
+
+  # I named the function song_selector because my intended purpose was for the method to be used to select songs.
+  # I used 'song' & 'artist' for the parameters because that's the info required to pick a song.
