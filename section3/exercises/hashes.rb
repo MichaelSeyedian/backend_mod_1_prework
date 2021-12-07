@@ -13,20 +13,20 @@ p zoo
 
 # Write code that prints all of the 'keys' of the zoo variable
 # you created above:
-print zoo.keys
+p zoo.keys
 
 # Write code that prints all of the 'values' of the zoo variable
 # you created above:
-print zoo.values
+p zoo.values
 
 # Write code that prints the value of the first animal of the zoo variable
 # you created above:
-puts zoo[:monkeys]
+p zoo[:monkeys]
 
 # Write code that adds an animal to the zoo hash.
 # Then, print the updated hash:
 zoo[:koalas] = 2
-print zoo
+p zoo
 
 #-------------------
 # Part 2: Email
@@ -38,19 +38,18 @@ print zoo
 
 # Declare a variable that stores hash. Each key should be an attribute of an email and each
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
-email = {sender: "major_tom@test.com", recipient: "ground_control@test.com", subject: "Floating",
-  body: "The stars look very different today.", attachment: "stars.jpg"}
+email = {sender: "major_tom@test.com", recipient: "ground_control@test.com", subject: "Floating", body: "The stars look very different today.", attachments: ["stars.jpg", "space_oddity.mp3"], date_time_sent: "05-29-1975 13:27:42"}
 
 # Write code that prints your email hash to the terminal.
-print email
+p email
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
-print email.keys
+p email.keys
 
 # Write code that prints all of the 'values' of the email hash
 # you created above:
-print email.values
+p email.values
 
 
 #-------------------
@@ -107,22 +106,25 @@ email = [
     'recipient' => "ground_control@test.com",
     'subject' => "Floating",
     'body' => "The stars look very different today.",
-    'attachment' => "stars.jpg"
+    'attachments' => ["stars.jpg", "space_oddity.mp3"],
+    'date_time_sent' => "05-29-1975 13:27:42"
   },
   {
     'sender' => "sonny@test.com",
     'recipient' => "cher@test.com",
     'subject' => "Babe",
     'body' => "I got you, Babe.",
-    'attachment' => "babe_lyrics.rtf"
+    'attachments' => ["babe_lyrics.rtf"],
+    'date_time_sent' => "02-14-1971 19:08:33"
   },
   {
     'sender' => "danny@test.com",
     'recipient' => "sandy@test.com",
     'subject' => "Summer Lovin'",
     'body' => "Tell me more, tell me more.",
-    'attachment' => "summer_lovin.mp3"
+    'attachments' => ["summer_lovin.mp3", "grease.mov"],
+    'date_time_sent' => "11-07-1979 09:55:32"
   }
 ]
 
-puts email
+p email

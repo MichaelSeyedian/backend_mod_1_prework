@@ -23,13 +23,14 @@ print animals[0]
 
 # YOU DO: Write code below that will print the number of elements in array of
 # animals from above.
-element_count = 0
+animal_counter = 0
 
 animals.each do |animal|
-  element_count += 1
+  animal_counter += 1
 end
 
-puts element_count
+puts animal_counter
+
 # YOU DO: Write code that will reassign the last item in the animals
 # array to "Gorilla"
 animals[-1] = "Gorilla"
@@ -38,7 +39,7 @@ animals[-1] = "Gorilla"
 animals[3] = "Budgie"
 
 # YOU DO: Write code that will print the String "Elephant" in the animals array
-animals[2] = "Elephant"
+animals[2] = "Elephant" # Add "Elephant" back to Array, replacing "Gorilla".
 p animals[2]
 #-------------------
 # PART 2: Foods: Array Methods
@@ -49,32 +50,32 @@ foods = ["crackers", "pasta", "oatmeal", "apples"]
 
 # YOU DO: Write code below that will print the number of elements in the array of
 # foods from above.
-element_count = 0
+foods_counter = 0
 
 foods.each do |animal|
-  element_count += 1
+  foods_counter += 1
 end
 
-puts element_count
+puts foods_counter
 
 # YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 # print the changed array to verify "broccoli" has been added
 foods.push("broccoli")
-print foods
+p foods
 
 # YOU DO: Write code below that removes the last item of food from the foods array and
 # print the changed array to verify that item has been removed
-foods.pop[-1]
-print foods
+foods.pop
+p foods
 
 # YOU DO: Write code to add 3 new foods to the array.
   # There are several ways to do this - choose whichever you'd like!
 # Then, print the changed array to verify the new items have been added
 foods.push("bagels", "salads", "sandwiches")
-print foods
+p foods
 
 # YOU DO: Remove the food that is in index position 0.
-foods.pop[0]
+foods.delete_at(0)
 
 #-------------------
 # PART 3: Where are Arrays used?
@@ -98,4 +99,4 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 
 # 1: Spotify: Creating & editing playlists.
 # 2: YouTube: Adding videos to my 'Watch Later' list.
-# 3: Amazon: Order History.
+# 3: Amazon: Saved item lists.
