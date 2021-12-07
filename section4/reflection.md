@@ -53,7 +53,7 @@ end
 
 8. What questions do you still have about classes in Ruby?
 
-  > In this code, what do you call the **Dog.new("Atlas", 8, "cranky"** part of the code? Is correct to call it an expression?
+  > In the following line of code, what do you call the **Dog.new("Atlas", 8, "cranky")** part of the code? Is correct to call it an expression?
 
   ```ruby
   atlas = Dog.new("Atlas", 8, "cranky")
