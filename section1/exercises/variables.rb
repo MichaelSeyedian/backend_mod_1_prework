@@ -44,8 +44,8 @@ p first_name, is_hungry, number_of_pets
 # How did you decide to use the data type you did for each of the three variables above?
 
   # first_name should be a string since it's a string of characters that conveys written meaning.
-  # is_hungry is binary. One is either hungry, or not. So, I used a boolean value.
-  # number_of_pets should be an integer number because one can't have less than a whole pet.
+  # is_hungry is binary. Someone is either hungry, or not. So, I used a boolean value.
+  # number_of_pets should be an integer, as opposed to a float, because you can't have less than a whole pet (unless you're tied up in a nasty custody battle with your ex).
 
 # YOU DO:
 # Re-assign the values to the three variables from the previous challenge to different values (but same data type).

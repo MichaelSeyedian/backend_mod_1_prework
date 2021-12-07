@@ -29,8 +29,8 @@ p "In a predictable result, the #{slow_poke} beat the #{speedy}!"
   # about what you name the variables. Remember, the goal is to be concise but
   # descriptive (it's a hard balance!) Then, log out ONE sentence that incorporates
   # all THREE variables.
-quantity = 5
-item = "roller coasters"
+item = "roller coaster"
+item_quantity = 5
 holiday = "Christmas"
 
-p "I want #{quantity} #{item} for #{holiday}."
+p "I want #{item_quantity} #{item}(s) for #{holiday}."

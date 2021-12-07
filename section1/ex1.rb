@@ -7,4 +7,4 @@ puts "I'd much rather you 'not'."
 puts 'I "said" do not touch this.'
 puts "How cool...Another line!"
 
-# This is an octothorp
+# <--This is also called an 'octothorp'
