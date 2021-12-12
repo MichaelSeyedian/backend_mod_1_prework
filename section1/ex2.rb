@@ -1,3 +1,6 @@
+# LRTHW - Exercise 2: Comments & Pound Characters
+  # https://learnrubythehardway.org/book/ex2.html
+
 # A comment, this is so you can read your program later.
 # Anything after the # is ignored by ruby.
 

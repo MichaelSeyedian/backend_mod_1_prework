@@ -1,10 +1,12 @@
+# LRTHW - Exercise 3: Numbers and Math
+  # https://learnrubythehardway.org/book/ex3.html
+
 # Outputs the string.
 puts "I will now count my chickens:"
 
 # Outputs string, including result of equation: division first, then addition.
 puts "Hens #{(25 + 30 / 6).to_f}"
-# Outputs string, including result of equation: multiplication & modulus,
-# then subtraction.
+# Outputs string, including result of equation: multiplication & modulus,then subtraction.
 puts "Roosters #{(100 - 25 * 3 % 4).to_f}"
 
 # Outputs string.

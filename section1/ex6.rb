@@ -1,3 +1,6 @@
+# LRTHW - Exercise 6: Strings and Text
+  # https://learnrubythehardway.org/book/ex6.html
+
 # Variable assignments
 types_of_people = 10
 # Interpolates types_of_people variable into string assigned to x variable.
@@ -28,3 +31,18 @@ e = "a string with a right side."
 
 # Displays the string values of these variables together.
 puts w + e
+
+# Study Drills
+# 1. Go through this program and write a comment above each line explaining it.
+
+# 2. Find all the places where a string is put inside a string.
+
+# 3. Are you sure there are only four places? How do you know? Maybe I like lying.
+
+# 4. Explain why adding the two strings w and e with + makes a longer string.
+
+  # Because the separate strings are being added together (concatenated) to form one string value.
+
+# 5. What happens when you change the strings to use ' (single-quote) instead of " (double-quote)? Do they still work? Try to guess why.
+
+  # Yes, they still work. I'm guessing that both "" & '' work in case you need to use one or the other within the string, such as 'George said, "Hello."'
