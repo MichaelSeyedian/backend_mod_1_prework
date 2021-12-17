@@ -1,3 +1,6 @@
+# LRTHW - Exercise 29: What If
+  # https://learnrubythehardway.org/book/ex29.html
+
 people = 35
 cats = 19
 dogs = 44
@@ -35,11 +38,12 @@ if people == dogs
   puts "People are dogs."
 end
 
+## Study Drills
 # 1. What do you think the if does to the code under it?
   # Only executes the code if the statement evaluates to true.
 
 # 2. Why does the code under the if need to be indented two spaces?
-  # To signify that the code is part of the if function.
+  # To signify that the code is subject to the if function.
 
 # 3. What happens if it isn't indented?
   # It produces a syntax error.

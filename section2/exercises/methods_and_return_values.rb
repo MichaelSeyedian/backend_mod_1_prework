@@ -1,3 +1,6 @@
+# LRTHW - Exercise 21: Methods Can Return Something
+  # https://learnrubythehardway.org/book/ex21.html
+
 def add(a, b)
   puts "ADDING #{a} + #{b}"
   return a + b
@@ -40,3 +43,15 @@ puts "That becomes: #{what}. Can you do it by hand?"
 # "Normal" formula.
 what = 35 + (74 - (180 * (50 / 2)))
 puts "That becomes: #{what}."
+
+
+## Study Drills
+# If you aren't really sure what return does, try writing a few of your own functions and have them return some values. You can return anything that you can put to the right of an =.
+
+# At the end of the script is a puzzle. I'm taking the return value of one function and using it as the argument of another function. I'm doing this in a chain so that I'm kind of creating a formula using the functions. It looks really weird, but if you run the script, you can see the results. What you should do is try to figure out the normal formula that would recreate this same set of operations.
+
+# Once you have the formula worked out for the puzzle, get in there and see what happens when you modify the parts of the functions. Try to change it on purpose to make another value.
+
+# Do the inverse. Write a simple formula and use the functions in the same way to calculate it.
+
+# Remove the word return, and see if the script still works. You'll find that it does because Ruby implicitly returns whatever the last expression calculates. However, this isn't clear, so I want you to do it explicitly for my book.

@@ -1,3 +1,6 @@
+# LRTHW - Exercise 31: Making Decitions
+  # https://learnrubythehardway.org/book/ex31.html
+
 puts "You enter a dark room with two doors.  Do you go through door #1 or door #2?"
 
 print "> "
@@ -53,3 +56,9 @@ elsif door == "2"
 else
 puts "You stumble around and fall on a knife and die.  Good job!"
 end
+
+
+## Study Drills
+# Make new parts of the game and change what decisions people can make. Expand the game out as much as you can before it gets ridiculous.
+
+# Write a completely new game. Maybe you don't like this one, so make your own. This is your computer; do what you want.
