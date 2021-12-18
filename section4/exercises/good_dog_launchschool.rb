@@ -1,28 +1,29 @@
-# https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects
+# LaunchSchool - What Are Objects? & Classes Define Objects
+  # https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects
 
-# Create a module for classes to use via mixins (include).
+# Define a module for classes to use via mixins (include).
 module Speak
-  # Create method within the Speak module.
+  # Defined method within the Speak module.
   def speak(sound)
     puts sound
   end
 end
 
-# Create a class.
+# Define a class.
 class GoodDog # CamelCase for class name.
   include Speak # Mixin Speak module.
 end
 
-# Another class.
+# Define another class.
 class HumanBeing
   include Speak # Mixin speak module.
 end
 
-# Create new instance/object of GoodDog class.
+# Intantiate new instance/object of GoodDog class.
 sparky = GoodDog.new
 sparky.speak("Arf!")  # => Arf!
 
-# Create new instance/object of HumanBeing class.
+# Instantiate new instance/object of HumanBeing class.
 bob = HumanBeing.new
 bob.speak("Hello!")  # => Hello!
 puts "\n"
@@ -44,10 +45,12 @@ end
 subaru_impreza = Car.new
 
 puts ""
-# 2.What is a module? What is its purpose? How do we use them with our classes?
-# Create a module for the class you created in exercise 1 and include it properly.
+
+# What is a module? What is its purpose? How do we use them with our classes?
 
   # A module is a collection of code that can be included for use within classes.
+
+# Create a module for the class you created in exercise 1 and include it properly.
 
 module Accelerate
   def accelerate(mph)
