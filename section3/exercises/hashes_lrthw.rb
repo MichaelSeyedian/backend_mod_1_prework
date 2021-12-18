@@ -1,4 +1,5 @@
-# https://learnrubythehardway.org/book/ex39.html
+# LRTHW - Exercise 39: Hashes, Oh Lovely Hashes
+  # https://learnrubythehardway.org/book/ex39.html
 
 def add_line
   puts '-' * 10
@@ -70,3 +71,11 @@ end
 city = cities['TX']
 city ||= 'Does Not Exist'
 puts "The city for the state 'TX' is: #{city}"
+
+
+## Study Drills
+# Do this same kind of mapping with cities and states/regions in your country or some other country.
+
+# Find the Ruby documentation for hashes and try to do even more things to them.
+
+# Find out what you can't do with hashes. A big one is that they do not have order, so try playing with that.

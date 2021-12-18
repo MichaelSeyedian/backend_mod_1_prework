@@ -1,4 +1,5 @@
-# https://learnrubythehardway.org/book/ex34.html
+# LRTHW - Exercise 34: Accessing Elements of Arrays
+  # https://learnrubythehardway.org/book/ex34.html
 
 animals = ['bear', 'ruby', 'peacock', 'kangaroo', 'whale', 'platypus']
 
@@ -13,11 +14,11 @@ puts "The animal at 2 is #{animals[2]}"
 puts "The 6th animal is #{animals[5]}"
 puts "The animal at 4 is #{animals[4]}"
 
-# With what you know of the difference between these types of numbers, can you
-# explain why the year 2010 in "January 1, 2010," really is 2010 and not 2009?
-# (Hint: you can't pick years at random.)
-
+##Study Drills
+# With what you know of the difference between these types of numbers, can you explain why the year 2010 in "January 1, 2010," really is 2010 and not 2009? (Hint: you can't pick years at random.)
   # Years are ordinal because they are meant to go in sequencial order, not accessed at random.
+
+# Write some more arrays and work out similar indexes until you can translate them. Use Ruby to check your answers.
 
 kardashians = ['Kris', 'Kim', 'Kourtney', 'Kloe']
 

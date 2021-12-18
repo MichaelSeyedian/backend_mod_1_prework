@@ -23,13 +23,7 @@ print animals[0]
 
 # YOU DO: Write code below that will print the number of elements in array of
 # animals from above.
-animal_counter = 0
-
-animals.each do |animal|
-  animal_counter += 1
-end
-
-puts animal_counter
+p animals.length
 
 # YOU DO: Write code that will reassign the last item in the animals
 # array to "Gorilla"
@@ -39,8 +33,12 @@ animals[-1] = "Gorilla"
 animals[3] = "Budgie"
 
 # YOU DO: Write code that will print the String "Elephant" in the animals array
-animals[2] = "Elephant" # Add "Elephant" back to Array, replacing "Gorilla".
+
+# add "Elephant" back to Array, replacing "Gorilla"
+animals[2] = "Elephant"
+# print "Elephant"
 p animals[2]
+
 #-------------------
 # PART 2: Foods: Array Methods
 #-------------------
@@ -50,13 +48,7 @@ foods = ["crackers", "pasta", "oatmeal", "apples"]
 
 # YOU DO: Write code below that will print the number of elements in the array of
 # foods from above.
-foods_counter = 0
-
-foods.each do |animal|
-  foods_counter += 1
-end
-
-puts foods_counter
+p foods.length
 
 # YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 # print the changed array to verify "broccoli" has been added
