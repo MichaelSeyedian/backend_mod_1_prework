@@ -95,7 +95,14 @@ excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
 #   - luckyNumbers (array)
 #   - address (hash with following key/values: number , street , state, zip)
 
-scary_monster = {name: "Frightster", smell: "hot garbage", weight: 1300, citiesDestroyed: ["Denver", "Anchorage", "Tokyo"], luckyNumbers: [3, 19, 42], address: {number: 4529, street: "Sickamore St.", state: "OR", zip: 97035}}
+scary_monster = {
+  name: "Frightster",
+  smell: "hot garbage",
+  weight: 1300,
+  citiesDestroyed: ["Denver", "Anchorage", "Tokyo"],
+  luckyNumbers: [3, 19, 42],
+  address: {number: 4529, street: "Sickamore St.", state: "OR", zip: 97035}
+}
 
 # Create a new class called SuperHero
 # - Your class should have the following DYNAMIC values
